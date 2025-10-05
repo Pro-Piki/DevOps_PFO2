@@ -27,8 +27,13 @@ DevOps_PFO2/
 ### Pasos
 
 1. Cloná o descargá este repositorio.
-2. Abrí una terminal en la carpeta del proyecto.
-3. Ejecutá:
+2. Abrí una terminal y navegá hasta la carpeta web-app dentro del proyecto ya que ahí se encuentra el archivo docker-compose.yml:
+
+```bash
+cd DevOps_PFO2/web-app
+```
+
+3. Ejecutá los contenedores con Docker Compose:
 
 ```bash
 docker-compose up -d
@@ -80,4 +85,4 @@ La base de datos se inicializa automáticamente con la tabla usuarios y sus regi
 
 ## Autores
 - Proyecto realizado para la práctica formativa de DevOps.
-- Equipo 7 - PINK CODE
+- **Equipo 7 - PINK CODE**

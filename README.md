@@ -16,7 +16,12 @@ Contenerizar una aplicación web que se conecta a una base de datos MySQL, utili
 
 ### Estructura del proyecto
 ```
-DevOps_PFO2/ ├── README.md ├── web-app/ ├── docker-compose.yml ├── mysql-init/ │ └── init.sql
+DevOps_PFO2/ 
+  ├── README.md 
+  ├── web-app/ 
+        ├── docker-compose.yml 
+        ├── mysql-init/ 
+            │ └── init.sql
  
 ```
 ### Pasos

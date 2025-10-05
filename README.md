@@ -15,9 +15,10 @@ Contenerizar una aplicación web que se conecta a una base de datos MySQL, utili
 - Tener Docker Compose disponible.
 
 ### Estructura del proyecto
-
-web-app/ ├── README.md ├── docker-compose.yml ├── mysql-init/ │ └── init.sql 
-
+```
+DevOps_PFO2/ ├── README.md ├── web-app/ ├── docker-compose.yml ├── mysql-init/ │ └── init.sql
+ 
+```
 ### Pasos
 
 1. Cloná o descargá este repositorio.

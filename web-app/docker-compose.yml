@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  web:
+    image: yoshipropiki/app-web:latest
+    container_name: apache-web
+    ports:
+      - "8080:80"
+    networks:
+      - pfo2-net
+    depends_on:
+      - db
+
+  db:
+    image: mysql
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: clave123
+      MYSQL_DATABASE: pfo2
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql-init:/docker-entrypoint-initdb.d
+    networks:
+      - pfo2-net
+
+networks:
+  pfo2-net:
